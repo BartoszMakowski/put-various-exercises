@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box; }
+
+.def-border-bground, .sekcja, #hamburger {
+  border: solid 1px black;
+  background-color: #c3c388; }
+
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  padding-bottom: 100px;
+  margin: 0;
+  min-height: 100%; }
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .col-l-1 {
+    width: 8.33333%; }
+
+  .col-l-2 {
+    width: 16.66667%; }
+
+  .col-l-3 {
+    width: 25%; }
+
+  .col-l-4 {
+    width: 33.33333%; }
+
+  .col-l-5 {
+    width: 41.66667%; }
+
+  .col-l-6 {
+    width: 50%; }
+
+  .col-l-7 {
+    width: 58.33333%; }
+
+  .col-l-8 {
+    width: 66.66667%; }
+
+  .col-l-9 {
+    width: 75%; }
+
+  .col-l-10 {
+    width: 83.33333%; }
+
+  .col-l-11 {
+    width: 91.66667%; }
+
+  .col-l-12 {
+    width: 100%; }
+
+  .hidden-l {
+    display: none; } }
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .col-m-1 {
+    width: 8.33333%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-2 {
+    width: 16.66667%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-3 {
+    width: 25%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-4 {
+    width: 33.33333%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-5 {
+    width: 41.66667%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-6 {
+    width: 50%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-7 {
+    width: 58.33333%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-8 {
+    width: 66.66667%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-9 {
+    width: 75%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-10 {
+    width: 83.33333%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-11 {
+    width: 91.66667%; }
+
+  .hidden-m {
+    display: none; }
+
+  .col-m-12 {
+    width: 100%; }
+
+  .hidden-m {
+    display: none; } }
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .col-s-1 {
+    width: 8.33333%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-2 {
+    width: 16.66667%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-4 {
+    width: 33.33333%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-5 {
+    width: 41.66667%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-7 {
+    width: 58.33333%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-8 {
+    width: 66.66667%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-10 {
+    width: 83.33333%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-11 {
+    width: 91.66667%; }
+
+  .hidden-s {
+    display: none; }
+
+  .col-s-12 {
+    width: 100%; }
+
+  .hidden-s {
+    display: none; } }
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding-left: 12px;
+  padding-right: 12px; }
+  .row :after {
+    content: "";
+    visibility: hidden;
+    clear: both; }
+
+.col {
+  float: left;
+  display: wrap;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 24px; }
+
+p {
+  font-size: 16px; }
+
+.header div .tytul {
+  font-size: 32px;
+  padding-left: 120px; }
+
+.sekcja {
+  height: 100%; }
+  .sekcja .tytul {
+    width: 200px;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-top: 0px; }
+    .sekcja .tytul p {
+      box-sizing: border-box;
+      margin-top: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 24px;
+      text-align: center;
+      border-bottom: solid 1px black;
+      border-left: solid 1px black; }
+  .sekcja .tresc {
+    text-align: justify;
+    padding: 10px 15px 10px 15px; }
+
+.header {
+  padding-top: 30px; }
+  .header div {
+    display: inline-block;
+    float: left; }
+  .header :after {
+    content: "";
+    visibility: hidden;
+    clear: both; }
+
+.footer {
+  box-sizing: content-box;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  padding-top: 30px;
+  bottom: 0;
+  background-color: #c3c388;
+  text-align: center; }
+  .footer p {
+    margin: 0; }
+
+img {
+  float: left; }
+
+.menu {
+  float: right; }
+  .menu li {
+    display: inline-block;
+    width: 80px;
+    text-align: center; }
+
+#autor {
+  font-weight: bold; }
+
+.blue {
+  background-color: #4d94ff; }
+
+.orange {
+  background-color: #ff8533; }
+
+.pink {
+  background-color: #ff9999; }
+
+#hamburger {
+  float: right;
+  border-radius: 20px; }
+
+/*# sourceMappingURL=style.css.map */

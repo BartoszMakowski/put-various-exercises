@@ -1,0 +1,33 @@
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+	@for $i from 1 through 12{
+		.col-l-#{$i} {
+            width: $i * 100% / 12;
+		}
+	}
+	.hidden-l {
+			display: none;
+	}
+}
+ /* Tablet */
+ @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @for $i from 1 through 12{
+        .col-m-#{$i} {
+            width: $i * 100% / 12;
+        }
+        .hidden-m {
+                display: none;
+        }
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    @for $i from 1 through 12{
+        .col-s-#{$i} {
+            width: $i * 100% / 12;
+        }
+        .hidden-s {
+                display: none;
+        }
+    }
+}

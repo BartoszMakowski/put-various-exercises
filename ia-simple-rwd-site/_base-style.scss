@@ -1,0 +1,24 @@
+$p-font: 16px;
+$sec-title-width: 200px;
+$sec-title-pad: 10px;
+$equal-space: 24px;
+
+* {
+    box-sizing: border-box;
+}
+
+.def-border-bground {
+    border: solid 1px black;
+    background-color: #c3c388
+}
+
+html {
+    height: 100%; // zeby stopka nie wisiala zbyt wysoko
+}
+
+body {
+    position: relative; // zeby stopka byla pod trescia
+    padding-bottom: 100px; // miejsce na stopke
+    margin: 0;
+    min-height: 100%; // zeby stopka nie wisiala zbyt wysoko
+}
